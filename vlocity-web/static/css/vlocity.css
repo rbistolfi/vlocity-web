@@ -1,0 +1,151 @@
+body {
+    width: 80%;
+    min-width: 900px;
+    max-width: 1200px;
+    margin: 60px auto;
+    font-size: 90%;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #bbb;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin: 0
+}
+
+p {
+    margin: 8px 0 20px 0
+}
+
+.left {
+    float: left;
+}
+
+#about, #downloads, #community {
+    width: 28%;
+    margin: auto;
+    line-height: 2;
+    color: #333;
+    padding: 0 25px 0 15px;
+    background: url(/static/images/floatdiv.png) no-repeat scroll 0 0 transparent;
+    min-height: 25em;
+    font-size: 85%;
+}
+        
+.right {
+    float: right;
+}
+
+#header {
+    margin: 0 0 40px 0
+}
+
+#top-navbar ul li {
+     display: inline;
+     padding: 0 0 0 15px
+}
+  
+#central {
+    margin: 30px 0;
+}
+  
+a {
+    text-decoration: none;
+    color: #0000A0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+  
+#top-navbar a {
+    color: #bbb;
+    text-decoration: none;
+}
+  
+#top-navbar a:hover {
+    color: #0000A0; /* #333; */
+}
+
+#top-navbar small {
+    color: #bbb
+}
+
+div.browser {
+    background: url(http://rbistolfi.dyndns.org/vlocity/images/floatdiv.png) no-repeat scroll 0 0 transparent;
+    margin: 20px 25px 0 0;
+    padding: 0 20px;
+    min-height: 600px;
+}
+
+div.browser li, li {
+    list-style: circle
+}
+
+pre {
+    padding: 10px;
+    background-color: #E0EBEF;
+    border: solid 1px #eee;
+}
+
+input {
+    border: solid 1px #ccc;
+}
+
+hr {
+    border: solid 1px #eee;
+}
+
+fieldset {
+    border: none
+}
+
+.footer {
+    color: #bbb;
+    font-size: 90%
+}
+
+div.footer {
+    width: 30%;
+    min-height: 30px;
+    margin: 30px 0
+}
+
+p.loading {
+    color: #CCCCCC;
+    font-size: 80%;
+}
+
+p.loading img {
+    padding-right: 15px;
+}
+
+div#news p {
+    color: #333333;
+    font-size: 85%;
+    line-height: 1.5;
+}
+
+div#news-container {
+    width: 98%;
+}
+
+div#news-container h2 {
+    margin-top: 40px;
+    margin-left: 10px;
+}
